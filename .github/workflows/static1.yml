@@ -36,8 +36,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload subfolder containing site files
+          path: './Oviaas Lifestyle Store ~ Ecommerce Website'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
